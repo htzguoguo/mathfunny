@@ -1,0 +1,130 @@
+
+
+body {
+    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;!important;
+}
+
+
+.dd-shell-bg-white {
+    background: #fff;
+}
+
+@media screen and (min-width: 767px) {
+    .dd-navbar-primary {
+
+    }
+    .dd-navbar {
+                 border-radius: 5px;
+             }
+    .dd-navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 26px;
+        border: 1px solid transparent;
+    }
+    .dd-navbar-primary .dd-navbar-nav li a {
+        font-weight: 700;
+        color: #2b9cf2;
+    }
+    .dd-navbar-primary .dd-navbar-nav li.active a {
+        font-weight: 700;
+        color: #2b9cf2;
+    }
+    .dd-navbar-primary .dd-navbar-nav li a:hover, .dd-navbar-primary .dd-navbar-nav li a:active, .dd-navbar-primary .dd-navbar-nav li a:focus {
+        background: transparent;
+        color: #36434d;
+    }
+    .dd-btn-primary {
+        color: #fff;
+        background-color: #0e83dc;
+        border-color: transparent;
+    }
+    .dd-btn-primary:hover {
+        color: #fff;
+        background-color: #0e83dc;
+        border-color: transparent;
+    }
+    .dd-top-banner {
+        margin: 5rem auto 8rem auto;
+    }
+}
+
+
+
+.box0 { text-align: center; display: inline-block;
+    border: none; vertical-align:top;  width:90px;
+    font-size: 18px; font-weight: normal; color: #333; padding: 8px 0px 8px 0px;
+    margin: 3px;
+    text-shadow: 0px 0px 2px #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #ddd;
+    background: #fffce7;
+}
+
+.boxa { background: linear-gradient(to bottom, #FFE8BD 0%, #E1CA9F 100%); }
+.boxb { background: linear-gradient(to bottom, #DCBE96 0%, #BEA078 100%); }
+.boxc { background: linear-gradient(to bottom, #FFF5E1 0%, #E6D7C3 100%); }
+.boxd { background: linear-gradient(to bottom, #CACACA 0%, #ACACAC 100%); }
+.boxe { background: linear-gradient(to bottom, #FFFF3A 0%, #EBEB1C 100%); }
+.boxf { background: linear-gradient(to bottom, #89FFDE 0%, #6BEBC0 100%); }
+.boxg { background: linear-gradient(to bottom, #FFCAD5 0%, #EBACB7 100%); }
+.boxh { background: linear-gradient(to bottom, #A2FFA2 0%, #84E784 100%); }
+.boxi { background: linear-gradient(to bottom, #3AFF89 0%, #1CEB6B 100%); }
+.boxj { background: linear-gradient(to bottom, #3AFFFF 0%, #1CEBEB 100%); }
+.boxk { background: linear-gradient(to bottom, #E2C9E2 0%, #C4ABC4 100%); }
+.boxl { background: linear-gradient(to bottom, #B7E2F0 0%, #99C4D2 100%); }
+.boxm { background: linear-gradient(to bottom, #91D8F5 0%, #73BAD7 100%); }
+.boxa:hover { background: linear-gradient(to bottom, #FFFCD1 0%, #FAE3B8 100%); }
+.boxb:hover { background: linear-gradient(to bottom, #F0D2AA 0%, #D7B991 100%); }
+.boxc:hover { background: linear-gradient(to bottom, #FFFFF5 0%, #FFF0DC 100%); }
+.boxd:hover { background: linear-gradient(to bottom, #DEDEDE 0%, #C5C5C5 100%); }
+.boxe:hover { background: linear-gradient(to bottom, #FFFF4E 0%, #FFFF35 100%); }
+.boxf:hover { background: linear-gradient(to bottom, #9DFFF2 0%, #84FFD9 100%); }
+.boxg:hover { background: linear-gradient(to bottom, #FFDEE9 0%, #FFC5D0 100%); }
+.boxh:hover { background: linear-gradient(to bottom, #B6FFB6 0%, #9DFF9D 100%); }
+.boxI:hover { background: linear-gradient(to bottom, #4EFF9D 0%, #35FF84 100%); }
+.boxj:hover { background: linear-gradient(to bottom, #4EFFFF 0%, #35FFFF 100%); }
+.boxk:hover { background: linear-gradient(to bottom, #F6DDF6 0%, #DDC4DD 100%); }
+.boxl:hover { background: linear-gradient(to bottom, #CBF6FF 0%, #B2DDEB 100%); }
+.boxm:hover { background: linear-gradient(to bottom, #A5ECFF 0%, #8CD3F0 100%); }
+
+.page-footer {
+    background: white;
+}
+
+.navbar-header {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.navbar-inverse {
+     background-color: #fff;
+ }
+
+
+.dd-panel {
+    border : 0px;
+}
+
+.dd-container {
+
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
