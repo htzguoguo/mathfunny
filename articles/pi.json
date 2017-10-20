@@ -1,0 +1,430 @@
+{
+  "title": "圆周率",
+  "keywords": "数学,学习,圆周率",
+  "description": "圆周率的概念",
+  "author": "",
+  "createtime": "",
+  "content": [
+    {
+      "type": "title",
+      "content": "圆周率 (<span class=\"pi\">&#x3C0;</span>)"
+    },
+    {
+      "type": "paragraph",
+      "style": "float:left; margin: 0 10px 5px 0;",
+      "content": "<img src=\"../public/images/pi-dia.svg\" alt=\"pi circle diameter\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "画一个 <b>直径</b> (通过圆心到边上两点间的线段) 为 <b>1</b>的圆"
+    },
+    {
+      "type": "paragraph",
+      "content": "然后这个圆的<b style=\"color:#cb0\">周长</b> (图形一周的长度) 就是 <b style=\"color:#cb0\">3.14159265...</b>   <b style=\"color:#cb0\">圆周率</b> "
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "<b style=\"color:#cb0\">圆周率</b> 一般用希腊字母  <span class=\"pi\" style=\"color:#cb0\">&#x3C0;</span>来表示"
+    },
+    {
+      "type": "example",
+      "content": []
+    },
+    {
+      "type": "paragraph",
+      "style": "float:right; margin: 0 0 5px 10px;",
+      "content": "<img src=\"../public/images/pi.svg\" alt=\"circumference, diameter, radius\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "<span class=\"pi\" style=\"color:#cb0\">&#x3C0;</span>的定义是:"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "content": " <i class=\"larger\">圆的<b>周长</b> <br>\n\t和 <b>直径</b> <br>\n\t的比值.</i>"
+    },
+    {
+      "type": "example",
+      "content": []
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "style": "float:left; margin: 0 10px 5px 0;",
+      "content": "<img src=\"../public/images/pi-dia-simple.svg\" alt=\"pi circle diameter\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0; "
+    },
+    {
+      "type": "paragraph",
+      "content": "为了更好的理解<span class=\"pi\">&#x3C0;</span> 是什么 ... 我们来一起画画这个图."
+    },
+    {
+      "type": "example",
+      "content": []
+    },
+    {
+      "type": "subheading",
+      "content": "来自己计算一下"
+    },
+    {
+      "type": "paragraph",
+      "content": "画一个圆，或者找一个圆形的盘子."
+    },
+    {
+      "type": "paragraph",
+      "content": "先量一下它的(<b>周长</b>):"
+    },
+    {
+      "type": "paragraph",
+      "class": "center",
+      "content": "<img src=\"../public/images/pi-plate-circumference.jpg\" width=\"250\" height=\"156\" alt=\"plate circumference 82\">\n\t\t\t<br> 大概是<b>82 厘米</b>"
+    },
+    {
+      "type": "paragraph",
+      "content": "再量一下它的 (<b>直径</b>):"
+    },
+    {
+      "type": "paragraph",
+      "class": "center",
+      "content": "<img src=\"../public/images/pi-plate-diameter.jpg\" width=\"250\" height=\"194\" alt=\"plate diameter\">\n\t\t\t<br>大概是 <b>26 厘米</b> "
+    },
+    {
+      "type": "paragraph",
+      "content": "周长/直径"
+    },
+    {
+      "type": "paragraph",
+      "class": "center large",
+      "content": "82 厘米 / 26 厘米 = 3.1538... "
+    },
+    {
+      "type": "paragraph",
+      "content": "非常接近 <span class=\"pi\">&#x3C0;</span>的值."
+    },
+    {
+      "type": "subheading",
+      "content": "圆周率的用途"
+    },
+    {
+      "type": "paragraph",
+      "content": "当我们知道圆的直径，我们可以使用 <span class=\"pi\">&#x3C0;</span> 来计算圆的周长"
+    },
+    {
+      "type": "paragraph",
+      "class": "center larger",
+      "content": "周长 = <span class=\"pi\">&#x3C0;</span> &#xD7; 直径"
+    },
+    {
+      "type": "example",
+      "class": "example",
+      "content": [
+        {
+          "type": "threeheading",
+          "content": "例如: 我们围绕着一个直径是100米的圆形广场走了一圈, 那我们实际走了多远呢?"
+        },
+        {
+          "type": "paragraph",
+          "class": "center",
+          "content": "<img src=\"../public/images/pi-circle-ex1.gif\" width=\"230\" height=\"111\" alt=\"pi circle 100m diameter\">"
+        },
+        {
+          "type": "example",
+          "class": "tbl",
+          "content": [
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "<span class=\"center\">走过的距离</span>"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": " = 周长 <br>"
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "&#xA0;"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": "= <span class=\"pi\">&#x3C0;</span> &#xD7; 100 米"
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "&#xA0;"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": " = 314.159... 米 "
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "&#xA0;"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": "<span class=\"center\">= <b>314 米</b>   </span>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "当我们知道周长的时候，我们也可以使用 <span class=\"pi\">&#x3C0;</span> 来计算直径."
+    },
+    {
+      "type": "paragraph",
+      "class": "center larger",
+      "content": " 直径 = 周长 / <span class=\"pi\">&#x3C0;</span>"
+    },
+    {
+      "type": "example",
+      "class": "example",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "<img style=\"float:right; margin: 10px;\" src=\"../public/images/annulus-pipe.jpg\" width=\"118\" height=\"184\" alt=\"annulus pipe\">"
+        },
+        {
+          "type": "threeheading",
+          "content": "例如: 这根金属圆管的周长是94 毫米 ... 让我们来看看它的直径是多少?"
+        },
+        {
+          "type": "example",
+          "class": "tbl",
+          "content": [
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "直径"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": " = 周长  / <span class=\"pi\">&#x3C0;</span><br>"
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "&#xA0;"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": "= 94 毫米 / <span class=\"pi\">&#x3C0;</span>"
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "&#xA0;"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": " = 29.92... 毫米 "
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "class": "row",
+              "content": [
+                {
+                  "type": "span",
+                  "class": "left",
+                  "content": "&#xA0;"
+                },
+                {
+                  "type": "span",
+                  "class": "right",
+                  "content": "<span class=\"center\">= <b>30 毫米</b> (我们取了一个近似值) </span>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "content": "半径"
+    },
+    {
+      "type": "paragraph",
+      "content": "顾名思义，半径是直径的一半, 所以我们经常说:"
+    },
+    {
+      "type": "paragraph",
+      "style": "float:left; margin: 0 20px 5px 0;",
+      "content": "<img src=\"../public/images/pi-circle.gif\" width=\"172\" height=\"188\" alt=\"circle radius=1, half circumference=pi\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "对于一个 <b>半径</b> 是 <b>1</b>的圆"
+    },
+    {
+      "type": "paragraph",
+      "content": " 那么它的<i>周长的一半</i> 就是 <b><span class=\"pi\">&#x3C0;</span> = 3.14159265...</b>"
+    },
+    {
+      "type": "example",
+      "content": []
+    },
+    {
+      "type": "subheading",
+      "content": "常数"
+    },
+    {
+      "type": "paragraph",
+      "content": "<span class=\"pi\">&#x3C0;</span>  约等于: "
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "class": "larger",
+      "content": "<b>3.14159265358979323846&#x2026;</b>"
+    },
+    {
+      "type": "paragraph",
+      "content": "它是一个无理数，即无限不循环小数."
+    },
+    {
+      "type": "example",
+      "content": []
+    },
+    {
+      "type": "subheading",
+      "content": "近似值"
+    },
+    {
+      "type": "paragraph",
+      "content": "对于 <span class=\"pi\">&#x3C0;</span>来说一个比较接近的值是   22/7"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "class": "larger",
+      "content": "22/7 = <b>3.1428571...</b>"
+    },
+    {
+      "type": "paragraph",
+      "content": "但这仅仅是一个近似值, 22/7 并不是完全<b>等于</b>. 事实上 <span class=\"pi\">&#x3C0;</span> 不等于任何两个整数的比值, 它是一个 <a href=\"irrational-numbers.html\">无理数</a>."
+    },
+    {
+      "type": "paragraph",
+      "content": "一个更加接近的比值是:"
+    },
+    {
+      "type": "paragraph",
+      "class": "center",
+      "content": "<span class=\"larger\">355/113 = <b>3.1415929...</b></span>\n\t\t\t<br>"
+    },
+    {
+      "type": "subheading",
+      "content": "常用值"
+    },
+    {
+      "type": "paragraph",
+      "content": " 我们最长用到的值是&quot;3.14159&quot;"
+    },
+    {
+      "type": "subheading",
+      "content": "前一百位"
+    },
+    {
+      "type": "paragraph",
+      "content": "下面是<span class=\"pi\">&#x3C0;</span> 的前一百位的值:"
+    },
+    {
+      "type": "table",
+      "border": "0",
+      "align": "center",
+      "content": [
+        [
+          {
+            "type": "TD",
+            "content": "3.14159265358979323846264338327950288\n\t\t\t\t\t<br> 4197169399375105820974944592307816\n\t\t\t\t\t<br> 4062862089986280348253421170679..."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    }
+  ]
+}

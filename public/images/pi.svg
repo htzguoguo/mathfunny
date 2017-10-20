@@ -1,0 +1,38 @@
+<svg width="293.4" height="248" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+	<defs>
+		<marker id="id4" orient="auto">
+			<path d="m-4,0l-2,2l7,-2l-7,-2l2,2z" stroke-width="1pt" stroke="black" id="svg_1"/>
+		</marker>
+		<marker id="id3" orient="auto">
+			<path d="m4,0l2,-2l-7,2l7,2l-2,-2z" stroke-width="1pt" stroke="black" id="svg_2"/>
+		</marker>
+		<marker id="id1" orient="auto">
+			<path d="m4,0l2,-2l-7,2l7,2l-2,-2z" stroke-width="1pt" stroke="#3465a4" fill="#3465a4" id="svg_3"/>
+		</marker>
+		<marker id="id2" orient="auto">
+			<path d="m-4,0l-2,2l7,-2l-7,-2l2,2z" stroke-width="1pt" stroke="#3465a4" fill="#3465a4" id="svg_4"/>
+		</marker>
+		<marker id="id5" orient="auto">
+			<path d="m4,0l2,-2l-7,2l7,2l-2,-2z" stroke-width="1pt" stroke="#f57900" fill="#f57900" id="svg_5"/>
+		</marker>
+	</defs>
+	<g>
+		<title>Layer 1</title>
+		<path d="m141,14.7c-23.8,0.1 -47.2,10.4 -63.5,27.6c-16.4,16.9 -25.6,40.4 -25,64c0.4,24.1 11.2,47.8 29,64c17.3,16 41.1,24.7 64.7,23.6c24.3,-0.9 47.8,-12.4 63.6,-30.7c15.6,-17.7 23.6,-41.6 21.8,-65.2c-1.5,-23.5 -12.9,-46.1 -30.7,-61.5c-16.4,-14.3 -38.1,-22.2 -59.9,-21.8z" stroke-width="0.16" fill-opacity="0.2" fill="#fce94f" id="svg_6"/>
+		<path d="m233.84375,104.178125c0,48.1 -41.2,89.2 -89.6,89.7c-48.4,0.5 -88.5,-37.3 -90.9,-85.6c-2.4,-48.3 33.8,-89.8 82,-94.1c48.2,-4.3 92.8,33.4 98,81.3" stroke-dasharray="5.7, 1.9" stroke-width="1.9" stroke="#3465a4" fill="none" marker-end="url(#id2)" marker-start="url(#id1)" id="svg_7"/>
+		<path d="m214.1,99.9l36.6,0" stroke-width="0.68" stroke="black" fill="none" id="svg_8"/>
+		<path d="m210,52.3l-133,106" stroke-dasharray="5.6, 1.9" stroke-width="1.87" stroke="black" fill="none" opacity="0.7" marker-end="url(#id4)" marker-start="url(#id3)" id="svg_24"/>
+		<text x="30.178568" y="164.523782" transform="matrix(0.776543,-0.630114,0.630378,0.776247,0,0) " stroke-width="0.34" fill="black" opacity="0.66" font-size="16.5px" font-family="&#x27;Comic Sans MS'" id="svg_25">直径</text>
+		<path d="m219.7,145.3l-73.7,-40.1" stroke-dasharray="5.6, 1.9" stroke-width="1.87" stroke="#f57900" fill="#f57900" opacity="0.7" marker-start="url(#id5)" id="svg_26"/>
+		<text x="206.842308" y="17.81358" transform="matrix(0.878262,0.478535,-0.478555,0.877864,0,0) " stroke-width="0.34" fill="#ce5c00" opacity="0.66" font-size="16.5px" font-family="&#x27;Comic Sans MS'" id="svg_27">半径</text>
+		<text x="34.709375" y="245.3125" stroke-width="0.34" fill="black" opacity="0.66" font-size="16px" font-family="&#x27;Comic Sans MS'" id="svg_28">直径</text>
+		<text x="36.425" y="224.021875" stroke-width="0.34" fill="#3465a4" font-size="16px" font-family="&#x27;Comic Sans MS'" id="svg_29">周长</text>
+		<path d="m0.6,231.1l107.4,0" stroke-width="1.08" stroke="black" fill-opacity="0.75" fill="none" id="svg_30"/>
+		<text x="123.8" y="235.9" stroke-width="0.34" fill="#f57900" font-size="19.4px" font-family="&#x27;Comic Sans MS'" id="svg_31">=</text>
+		<text x="145.1" y="242.7" stroke-width="0.34" fill="#00ff00" font-size="57.3px" font-family="&#x27;Times New Roman'" id="svg_32">π</text>
+		<text x="189.2" y="230.1" transform="scale(0.9728289842605591,1.0279300212860107) " stroke-width="0.34" fill="#f57900" font-size="19.9px" font-family="&#x27;Comic Sans MS'" id="svg_33">=</text>
+		<text x="202.3" y="235.6" stroke-width="0.34" fill="#ff00ff" font-size="22.3px" font-family="Georgia" id="svg_34">3.14159...</text>
+		<circle cx="144.7" cy="104.3" r="2.22978" stroke-width="1.08" stroke="#204a87" fill="none" id="svg_35"/>
+		<text x="28.778905" y="57.027734" stroke-width="0.34" fill="#3465a4" font-size="16px" font-family="&#x27;Comic Sans MS'" id="svg_36">周长</text>
+	</g>
+</svg>

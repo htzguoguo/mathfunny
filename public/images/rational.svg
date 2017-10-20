@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg contentScriptType="text/ecmascript" width="192.2" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="81.9" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.1">
+    <defs/>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#3465a4;" x="58.65" y="20.9">3</text>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#3465a4;" x="58.65" y="49.3">2</text>
+    <path style="fill:none; stroke:#3465a4; stroke-width:1.27;" d="m 51.05 28.1 l 26.0 0.0"/>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#3465a4;" x="4.15" y="35.8">1.5 =</text>
+    <text style="font-family:'Comic Sans MS'; font-size:26px; font-style:italic; color:black; fill:#3465a4;" x="6.8499985"
+        y="73.25">有理数</text>
+    <text style="font-family:'Comic Sans MS'; font-size:24.7px; color:black; fill:#729fcf;" x="91.7" y="38.05">有限小数</text>
+    <line y2="26.0" fill="none" x1="80.0" x2="89.5" stroke="#99ccff" y1="25.75"/>
+    <line y2="30.5" fill="none" x1="80.25" x2="89.5" stroke="#99ccff" y1="30.5"/>
+</svg>

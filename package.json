@@ -9,6 +9,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "normalize.css": "^5.0.0"
+    "bole": "^3.0.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-inline": "^0.3.6",
+    "handlebars": "^4.0.10",
+    "json-file-validator": "0.0.4",
+    "normalize.css": "^5.0.0",
+    "phantom": "^3.2.1",
+    "phridge": "^2.0.0",
+    "request": "^2.81.0",
+    "swag": "^0.7.0"
+  },
+  "devDependencies": {
+    "grunt-critical": "^0.3.0"
   }
 }

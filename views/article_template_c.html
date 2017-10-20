@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{description}}"/>
+    <meta name="keywords" content="{{keywords}}"/>
+    <title>{{title}}</title>
+    <!-- Global stylesheets -->
+    <link href="../public/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/colors.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <link href="../public/css/dd-shell-index.css" rel="stylesheet" type="text/css" />
+    <link href="../public/css/dd-content-article.css" rel="stylesheet" type="text/css" />
+    <!-- Core JS files -->
+    <script src="../public/js/dd-content-number-line.js" type="application/javascript"></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <!-- /theme JS files -->
+</head>
+<body class="dd-shell-bg-white">
+<!-- Main navbar -->
+<div class="navbar ">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="page-logo">
+                <a href="index.html">
+                    <img src="../public/images/index/logo.png" alt="logo" class="logo-default">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="navbar-collapse collapse dd-navbar-primary" id="navbar-mobile">
+            <ul class="nav navbar-nav pull-right dd-navbar-nav">
+                <!-- BEGIN NOTIFICATION DROPDOWN -->
+                <!-- DOC: Apply "dropdown-hoverable" class after "dropdown" and remove data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to enable hover dropdown mode -->
+                <!-- DOC: Remove "dropdown-hoverable" and add data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to the below A element with dropdown-toggle class -->
+                <li  >
+                    <a href="/features">Features</a>
+                </li>
+                <!-- END NOTIFICATION DROPDOWN -->
+                <!-- BEGIN TODO DROPDOWN -->
+                <li >
+                    <a href="/examples">Examples</a>
+                </li>
+
+                <li >
+                    <a href="/pricing">Pricing</a>
+                </li>
+                <!-- END INBOX DROPDOWN -->
+                <!-- BEGIN USER LOGIN DROPDOWN -->
+                <li >
+                    <a href="/login">Login</a>
+                </li>
+
+            </ul>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+<!-- /main navbar -->
+<!-- Second navbar -->
+<!-- /second navbar -->
+<!-- Page header -->
+<!-- /page header -->
+<!-- Page container -->
+<div class="page-container">
+    <!-- Page content -->
+    <div class="page-content">
+        <!-- Main content -->
+        <div class="content-wrapper">
+            <div class="container">
+                <div id="content" role="main">
+                    {{#if content.length}}
+                        {{#each content}}
+                            {{! output article title }}
+                            {{#is this.type 'title'}}
+                                <h1 align="center">{{{this.content}}}</h1>
+                            {{/is}}
+                            {{#is this.type 'subheading'}}
+                                <h2 >{{{this.content}}}</h2>
+                            {{/is}}
+                            {{#is this.type 'threeheading'}}
+                                <h3 class="threeheading">{{{this.content}}}</h3>
+                            {{/is}}
+                            {{#is this.type 'paragraph'}}
+                                <p
+                                {{#if this.align}}
+                                   align="{{this.align}}"
+                                {{/if}}
+                                {{#if this.class}}
+                                    class="{{this.class}}"
+                                {{/if}}
+                                {{#if this.style}}
+                                    style="{{{this.style}}}"
+                                {{/if}}
+                                >
+                                {{{this.content}}}
+                                </p>
+                            {{/is}}
+                            {{#is this.type 'list'}}
+                                <ul>
+                                    {{#each content}}
+                                        <li>{{{this}}}</li>
+                                    {{/each}}
+                                </ul>
+                            {{/is}}
+                            {{#is this.type 'def'}}
+                                <div class="def">
+                                    <p>{{{this.content}}}</p>
+                                </div>
+                            {{/is}}
+                            {{#is this.type 'table'}}
+                                <table
+                                    {{#if this.width}}
+                                        width="{{this.width}}"
+                                    {{/if}}
+                                    {{#if this.align}}
+                                        align="{{this.align}}"
+                                    {{/if}}
+                                    {{#if this.border}}
+                                        border="{{this.border}}"
+                                    {{/if}}
+                                >
+                                    <tbody>
+                                        {{#each this.content}}
+                                            <tr>
+                                                {{#each this}}
+                                                    <{{this.type}}
+                                                        {{#if this.width}}
+                                                            width="{{this.width}}"
+                                                        {{/if}}
+                                                        {{#if this.class}}
+                                                            class="{{this.class}}"
+                                                        {{/if}}
+                                                        {{#if this.style}}
+                                                            style="{{this.style}}"
+                                                        {{/if}}
+                                                    >
+                                                        {{{this.content}}}
+                                                    </{{this.type}}>
+                                                {{/each}}
+                                            </tr>
+                                        {{/each}}
+                                    </tbody>
+                                </table>
+                            {{/is}}
+                            {{#is this.type 'example'}}
+                                <div class="{{this.class}}">
+                                    {{#each this.content}}
+
+                                        {{#is this.type 'threeheading'}}
+                                            <h3 class="threeheading">{{{this.content}}}</h3>
+                                        {{/is}}
+
+                                        {{#is this.type 'paragraph'}}
+                                            <p
+                                                {{#if this.align}}
+                                                align="{{this.align}}"
+                                                {{/if}}
+                                                {{#if this.class}}
+                                                class="{{this.class}}"
+                                                {{/if}}
+                                                {{#if this.style}}
+                                                style="{{{this.style}}}"
+                                                {{/if}}
+                                                >
+                                                {{{this.content}}}
+                                            </p>
+                                        {{/is}}
+
+                                        {{#is this.type 'example'}}
+                                            <div class="{{this.class}}">
+                                            {{#each this.content}}
+                                                {{#is this.type 'example'}}
+                                                    <div class="{{this.class}}">
+                                                        {{#each this.content}}
+                                                            {{#is this.type 'span'}}
+                                                                <span
+                                                                        {{#if this.align}}
+                                                                        align="{{this.align}}"
+                                                                        {{/if}}
+                                                                {{#if this.class}}
+                                                                class="{{this.class}}"
+                                                                {{/if}}
+                                                                {{#if this.style}}
+                                                                style="{{{this.style}}}"
+                                                                {{/if}}
+                                                                >
+                                                                {{{this.content}}}
+                                                                </span>
+                                                            {{/is}}
+                                                        {{/each}}
+                                                    </div>
+                                                {{/is}}
+                                            {{/each}}
+                                        </div>
+                                        {{/is}}
+
+                                        {{#is this.type 'list'}}
+                                            <ul>
+                                                {{#each content}}
+                                                <li>{{{this}}}</li>
+                                                {{/each}}
+                                            </ul>
+                                        {{/is}}
+
+                                        {{#is this.type 'table'}}
+                                            <table
+                                                    {{#if this.width}}
+                                                    width="{{this.width}}"
+                                                    {{/if}}
+                                            {{#if this.align}}
+                                            align="{{this.align}}"
+                                            {{/if}}
+                                            {{#if this.border}}
+                                            border="{{this.border}}"
+                                            {{/if}}
+                                            >
+                                            <tbody>
+                                            {{#each this.content}}
+                                            <tr>
+                                                {{#each this}}
+                                                <{{this.type}}
+                                                {{#if this.width}}
+                                                width="{{this.width}}"
+                                                {{/if}}
+                                                {{#if this.class}}
+                                                class="{{this.class}}"
+                                                {{/if}}
+                                                >
+                                                {{{this.content}}}
+                                            </{{this.type}}>
+                                            {{/each}}
+                                            </tr>
+                                            {{/each}}
+                                            </tbody>
+                                            </table>
+                                        {{/is}}
+                                    {{/each}}
+                                </div>
+                            {{/is}}
+                            {{#is this.type 'script'}}
+                                <script type="text/javascript">
+                                    {{{this.content}}}
+                                </script>
+                            {{/is}}
+                        {{/each}}
+                    {{/if}}
+                <!-- Submit a ticket -->
+                <div class="panel panel-body stack-media-on-mobile">
+                    <div class="media-left">
+                        <a href="#" class="btn btn-link btn-icon text-teal">
+                            <i class="icon-question7 icon-2x no-edge-top"></i>
+                        </a>
+                    </div>
+
+                    <div class="media-body media-middle">
+                        <h6 class="media-heading text-semibold">没有发现对您有帮助的内容?</h6>
+                        有什么您希望了解的请告诉我，我会第一时间为您回复
+                    </div>
+
+                    <div class="media-right media-middle">
+                        <a href="#" class="btn bg-warning-400 btn-lg"><i class="icon-mail5 position-left"></i> 给我发邮件吧</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Search field -->
+            <!-- /submit a ticket -->
+        </div>
+        <!-- /main content -->
+    </div>
+    <!-- /page content -->
+</div>
+<!-- /page container -->
+<!-- Footer -->
+<div class="footer text-muted">
+    &copy; 2015. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+</div>
+<!-- /footer -->
+</body>
+</html>

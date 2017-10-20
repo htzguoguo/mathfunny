@@ -1,0 +1,370 @@
+{
+  "title": "有理数",
+  "keywords": "数学,学习,有理数",
+  "description": "有理数的概念",
+  "author": "",
+  "createtime": "",
+  "content": [
+    {
+      "type": "title",
+      "content": "有理数"
+    },
+    {
+      "type": "paragraph",
+      "class": "center",
+      "content": "A <b>有理数</b> 是一个实数, 也可以用分数来表示 ( <b>a/b</b>). "
+    },
+    {
+      "type": "paragraph",
+      "class": "center",
+      "content": "很多日常生活中用到的数字都可以归类为有理数"
+    },
+    {
+      "type": "example",
+      "class": "example",
+      "content": [
+        {
+          "type": "threeheading",
+          "content": "例如:"
+        },
+        {
+          "type": "paragraph",
+          "content": " <b>1.5 是一个有理数</b> 因为 1.5 等于 <b>3/2</b> (可以以分数的形式表示)"
+        },
+        {
+          "type": "paragraph",
+          "class": "center",
+          "content": "<img src=\"../public/images/rational.svg\" alt=\"有理数\"> "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "下面是另外的例子:"
+    },
+    {
+      "type": "example",
+      "class": "simple",
+      "content": [
+        {
+          "type": "table",
+          "border": "0",
+          "width": "400",
+          "align": "center",
+          "content": [
+            [
+              {
+                "type": "TH",
+                "content": "数字"
+              },
+              {
+                "type": "TH",
+                "content": "分数"
+              },
+              {
+                "type": "TH",
+                "content": "有理数?"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "5"
+              },
+              {
+                "type": "TD",
+                "content": "5/1"
+              },
+              {
+                "type": "TD",
+                "content": "是"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "1.75"
+              },
+              {
+                "type": "TD",
+                "content": "7/4"
+              },
+              {
+                "type": "TD",
+                "content": "是"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": ".001"
+              },
+              {
+                "type": "TD",
+                "content": "1/1000"
+              },
+              {
+                "type": "TD",
+                "content": "是"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "-0.1"
+              },
+              {
+                "type": "TD",
+                "content": "-1/10"
+              },
+              {
+                "type": "TD",
+                "content": "是"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "0.111..."
+              },
+              {
+                "type": "TD",
+                "content": "1/9"
+              },
+              {
+                "type": "TD",
+                "content": "是"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "&#x221A;2 <br>\n\t\t\t\t\t\t\t\t\t\t\t(根号 2)"
+              },
+              {
+                "type": "TD",
+                "content": "?"
+              },
+              {
+                "type": "TD",
+                "content": "<b class=\"large\">不是 !</b>"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "根号2的结果不是一个普通的分数! 有很多这样的数字, 他们 <b>不是有理数</b>  它们有另外一个名称： <a href=\"irrational-numbers.html\">无理数</a>. "
+    },
+    {
+      "type": "paragraph",
+      "content": "一个非常非常有名的 <b>无理数</b> 是<a href=\"pi.html\">Pi (<span class=\"times\">&#x3C0;</span>)</a>:"
+    },
+    {
+      "type": "paragraph",
+      "class": "center",
+      "content": "<img src=\"../public/images/pi-irrational.svg\" alt=\"Rational Number\">\n\t\t\t\t\t\t    "
+    },
+    {
+      "type": "subheading",
+      "content": "有理数的定义"
+    },
+    {
+      "type": "example",
+      "class": "def",
+      "content": [
+        {
+          "type": "paragraph",
+          "align": "center",
+          "content": "<i>有理数是一个整数a和一个正整数b的比<b> a/b </b><br>\n\t\t\t\t\t\t    这里 <b>b</b> 和 <b>a</b> 是 <a href=\"whole-numbers.html\">整数</a> 并且 <b>b</b> 不等于零.</i>"
+
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "按照这样的定义，我们来看看有理数:"
+    },
+    {
+      "type": "table",
+      "border": "0",
+      "align": "center",
+      "content": [
+        [
+          {
+            "type": "TD",
+            "content": "&#xA0;<span class=\"large\">a</span>&#xA0;"
+          }
+        ],
+        [
+          {
+            "type": "TD",
+            "content": "&#xA0;<span class=\"large\">b</span>&#xA0;",
+            "style" : "border-top: 1px solid black;"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "这里b不等于零"
+    },
+    {
+      "type": "threeheading",
+      "content": "示例: "
+    },
+    {
+      "type": "example",
+      "class": "simple",
+      "content": [
+        {
+          "type": "table",
+          "border": "0",
+          "align": "center",
+          "content": [
+            [
+              {
+                "type": "TH",
+                "content": "a"
+              },
+              {
+                "type": "TH",
+                "content": "b"
+              },
+              {
+                "type": "TH",
+                "content": "a / b"
+              },
+              {
+                "type": "TH",
+                "content": "="
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "1"
+              },
+              {
+                "type": "TD",
+                "content": "1"
+              },
+              {
+                "type": "TD",
+                "content": "1/1"
+              },
+              {
+                "type": "TD",
+                "content": "1"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "1"
+              },
+              {
+                "type": "TD",
+                "content": "2"
+              },
+              {
+                "type": "TD",
+                "content": "1/2"
+              },
+              {
+                "type": "TD",
+                "content": "0.5"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "55"
+              },
+              {
+                "type": "TD",
+                "content": "100"
+              },
+              {
+                "type": "TD",
+                "content": "55/100"
+              },
+              {
+                "type": "TD",
+                "content": " 0.55"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "1"
+              },
+              {
+                "type": "TD",
+                "content": "1000"
+              },
+              {
+                "type": "TD",
+                "content": "1/1000"
+              },
+              {
+                "type": "TD",
+                "content": "0.001"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "255"
+              },
+              {
+                "type": "TD",
+                "content": "10"
+              },
+              {
+                "type": "TD",
+                "content": "255/10"
+              },
+              {
+                "type": "TD",
+                "content": "25.5"
+              }
+            ],
+            [
+              {
+                "type": "TD",
+                "content": "7"
+              },
+              {
+                "type": "TD",
+                "content": "0"
+              },
+              {
+                "type": "TD",
+                "content": "7/0"
+              },
+              {
+                "type": "TD",
+                "content": "<b>错误, b不能为零</b>"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "一定要记住: b不能为零 "
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "&#xA0;"
+    }
+  ]
+}

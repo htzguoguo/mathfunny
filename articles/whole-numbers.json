@@ -1,0 +1,176 @@
+{
+  "title" : "整数",
+  "keywords" : "数学,学习,整数",
+  "description" : "整数的概念",
+  "author" : "",
+  "createtime" : "",
+  "content" : [
+    {
+      "type" : "title",
+      "content" : "整数"
+    },
+    {
+      "type" : "subheading",
+      "content" : "自然数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "自然数是很直观的数字：<b>0, 1, 2, 3, 4, 5, ...</b>等等"
+    },
+    {
+      "type" : "paragraph",
+      "align" : "center",
+      "content" : "<img src=\"../public/images/number-line-positive.gif\" width=\"426\" height=\"69\"  alt=\"正整数\" /><br />"
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "threeheading",
+          "content" : "例如: 0, 1, 11 和 111,这些都是自然数"
+        },
+        {
+          "type" : "paragraph",
+          "content" : "(但是像  ½, 2.1 和 3.5 就 <b>不是</b> 自然数) "
+        }
+      ]
+    },
+    {
+      "type" : "subheading",
+      "content" : "正整数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "正整数是自然数, 不过 <b>不包括零</b>. 因为你不能用零来表示任何数字; <a href=\"zero.html\">零</a>. "
+    },
+    {
+      "type" : "subheading",
+      "content" : "整数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "整数和自然数类似, <b>包括负数但不包括分数</b>  "
+    },
+    {
+      "type" : "paragraph",
+      "align" : "center",
+      "content" : "<img src=\"../public/images/number-line.svg\" width=\"100%\" alt=\"从负十到正十的线段\" />"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "整数 可以是负数 {-1, -2,-3, -4, -5, ... }, 正数 {1, 2, 3, 4, 5, ... }, 或者零 {0}"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "我们可以给整数定义一个大概的范围"
+    },
+    {
+      "type" : "paragraph",
+      "align" : "center",
+      "content" : "<span class=\"larger\">整数 = { ..., -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, ... }</span>"
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "threeheading",
+          "content" : "例如: <span class=\"larger\">&minus;10, &minus;5, 0, 1 and 10 </span> 这些都是整数"
+        },
+        {
+          "type" : "paragraph",
+          "content" : "(但是像 &frac12;, 1.11 and 10.1. 这些就 <b>不是</b> 整数) "
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "class" : "larger",
+      "align" : "center",
+      "content" : "下边直线上的都是整数,它们可以向左或者右无限延伸"
+    },
+    {
+      "type" : "script",
+      "content" : " numberlineMain('int');"
+    },
+    {
+      "type" : "subheading",
+      "content" : "我们的总结"
+    },
+    {
+      "type" : "example",
+      "class" : "simple",
+      "content" : [
+        {
+          "type" : "table",
+          "content" : [
+            [
+              {
+                "type" : "th",
+                "content" : "名称"
+              },
+              {
+              "type" : "th",
+              "content" : "范围"
+              },
+              {
+                "type" : "th",
+                "content" : "示例"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "自然数"
+              },
+              {
+                "type" : "td",
+                "content" : "{ 0, 1, 2, 3, 4, 5, ... }"
+              },
+              {
+                "type" : "td",
+                "content" : "0, 22, 333, 5555"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "正整数"
+              },
+              {
+                "type" : "td",
+                "content" : "{ 1, 2, 3, 4, 5, ... }"
+              },
+              {
+                "type" : "td",
+                "content" : "2, 12, 122, 1122"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "整数"
+              },
+              {
+                "type" : "td",
+                "content" : "{ ... -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, ... }"
+              },
+              {
+                "type" : "td",
+                "content" : "-15, 0, 15, 100"
+              }
+            ]
+          ],
+          "border" : "0",
+          "width" : "80%",
+          "align" : "center"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    }
+  ]
+}

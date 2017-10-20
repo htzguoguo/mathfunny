@@ -1,0 +1,800 @@
+{
+  "title" : "数字的进化历史",
+  "keywords" : "数学,学习,数字的历史",
+  "description" : "简述了从自然数,整数,分数,有理数,无理数,实数,虚数,到复数的变化过程",
+  "author" : "",
+  "createtime" : "",
+  "content" : [
+    {
+      "type" : "title",
+      "content" : "数字的变化"
+    },
+    {
+      "type" : "subheading",
+      "content" : "正整数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "我们可以用数字来 <b>计数</b>: 1, 2, 3, 4, 等等"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "这样的计数方式从很久很久以前就开始了."
+    },
+    {
+      "type" : "list",
+      "content" : [ "我今天吃了\"<b>2</b> 顿饭\"",
+        "书包里有 \"<b>5</b> 本书\"",
+        "我买了 \"<b>2</b> 瓶可乐\""
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "所以我们有了这样的方式"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "所以我们有了这样的方式"
+    },
+    {
+      "type" : "def",
+      "content" : "数字: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ...}"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "十个、一百个、一千个、一万个....,嗯，只要我们愿意，我们可以一直数下去."
+    },
+    {
+      "type" : "subheading",
+      "content" : "零"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "现在我们每个人都很熟悉这个概念\"<b><a href='zero.html'>零</a></b>\", 但对于很久很久以前的我们,情况却不是这样的,因为我们计数是和现实里的东西对应的 ... 如果这里什么也没有, 那我们也就没有必要计数了."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<b>例如: 小河里有小鸭子，一只；如果小河里什么也没有</b>",
+      "align" : "center"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+        {
+          "type" : "td",
+          "content" : "<img src=\"../public/images/count_one_duck.png\" alt=\"one duck\" width=\"250\" height=\"112\">"
+        },
+        {
+          "type" : "td",
+          "width" : "30",
+          "content" : "&nbsp;"
+        },
+        {
+          "type" : "td",
+          "content" : "<img src=\"../public/images/count_zero.png\" alt=\"zero\" width=\"250\" height=\"112\">"
+        }
+        ],
+        [
+          {
+            "type" : "th",
+            "content" : "一只小鸭子"
+          },
+          {
+            "type" : "th",
+            "width" : "30",
+            "content" : "&nbsp;"
+          },
+          {
+            "type" : "th",
+            "content" : "没有小鸭子? 没有怎么计数呢"
+          }
+        ]
+      ],
+      "align" : "center",
+      "border" : "0"
+    },
+    {
+      "type" : "threeheading",
+      "content" : "占位符"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "很久很久以前，我们经常碰到这样的情况， 如何区别这两个数 <b>4</b> 和 <b>40.</b> 没有零这个符号的话，他们看起来是一样的。"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "聪明的我们很快就想到一个好注意\"占位符\", 用一个特殊的符号来表示这里什么也没有，是空空的"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "class" : "huge",
+            "content" : "1&nbsp;1"
+          },
+          {
+            "type" : "td",
+            "content" : " <p>\"1&nbsp;1\" 意味着 \"101\" </p><p>(百位是1, 十位是零 , 个位是1) </p>"
+          }
+        ]
+      ],
+      "align" : "center",
+      "border" : "0",
+      "width" : "80%"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "我们创造这个概念以后, 在很长很长的时间里，都没有把它当做一个像1、2、3这样真正的 <b>数字</b>. "
+    },
+    {
+      "type" : "paragraph",
+      "content" : "慢慢的，我们开始接受它了"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<i>\"我有两个苹果,中午把它们吃的干干净净的， 那现在我有 <b>零</b>  个苹果...!\"</i>",
+      "align" : "center"
+    },
+    {
+      "type" : "subheading",
+      "content" : "自然数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "我们都听过这个概念 \"<b>自然数</b>\" ... 它包括:"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "\"正整数\": {1, 2, 3, ...}",
+        "<b>和</b>  \"零\": {0}"
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "认为自然数不包含零的其中一个理由是因为人们（尤其是小孩）在开始学习数字的时候是由“一、二、三...”开始，而不是由“零、一、二、三...”开始, 因为这样是非常不自然的。"
+    },
+    {
+      "type" : "subheading",
+      "content" : "负数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "整个数学的历史是由一个接着一个的问题组成的;我们碰到一个问题,绞尽脑汁的去寻找答案,接着又出现新的问题......"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "现在,我们碰到的问题是"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "\"我们在数数的时候总是正着数, 那我们可不可以 <i>到</i> 着数呢?\"",
+      "align" : "center",
+      "class" : "larger"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "比如,我们正着数数: 1, 2, 3, 4, ..."
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "align" : "center",
+            "content" : " <p>... 如果我们到过来,从大到小:</p><p> 3, 2, 1, 0, ... <b>然后,会出现什么?</b></p>"
+          },
+          {
+            "type" : "td",
+            "align" : "center",
+            "content" : "&nbsp;"
+          },
+          {
+            "type" : "td",
+            "align" : "center",
+            "content" : "<img src=\"../public/images/number-line-below-zero.gif\" alt=\"number line below zero\" width=\"215\" height=\"88\">"
+          }
+        ]
+      ],
+      "align" : "center",
+      "border" : "0"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "答案就是: 我们碰到了 <span class=\"large\">负数:</span>"
+    },
+    {
+      "type" : "paragraph",
+      "align" : "align",
+      "content" : "<img src=\"../public/images/number-line.svg\" width=\"100%\" alt=\"number line\">"
+    },
+    {
+      "type" : "paragraph",
+      "align" : "align",
+      "content" : "现在,我们即可以从小到大数数，也可以到过来,从大到小"
+    },
+    {
+      "type" : "threeheading",
+      "content" : "可是一个负数对我们来说到底意味这什么?"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "比如,我们经常说的温度低于零度."
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "content" : "   <a href=\"../measure/thermometer.html\"><img src=\"../public/images/thermometer-thumb.gif\" alt=\"thermometer\" width=\"67\" height=\"141\"></a>"
+          },
+          {
+            "type" : "td",
+            "content" : "<p>先看看我们的例子 <a href=\"../temperature-conversion.html\">温度</a>. </p><p>我们把水结冰时候的温度定义为 (<b>0° C</b>) ... 这样,当我们碰到低于这个温度的时候,我们称之为负几度. </p><p> <b>-20° C</b> is 20° 低于零度.</p>"
+          }
+        ]
+      ],
+      "align" : "center",
+      "border" : "0",
+      "width" : "75%"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<img src=\"../public/images/two-cats.png\" alt=\"minus one cow\" width=\"201\" height=\"150\">",
+      "style" : "float:left; margin: 0 10px 5px 0;"
+    },
+    {
+      "type" : "threeheading",
+      "content" : "负的小猫"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "在理论上,我们可以有负数的小猫 "
+    },
+    {
+      "type" : "paragraph",
+      "content" : "故事是这样开始的 ...我们有三个好朋友, <b>每个好朋友我们想送一只小猫咪做礼物</b>, 就像图画里的,我们只有 <b>两只小猫</b> 来送给我们的朋友... 这样的话 <b>我们少一只小猫咪</b> ... 我们把这个称为负了一只小猫咪! "
+    },
+    {
+      "type" : "paragraph",
+      "content" : "有了负数以后,我们的计数一下扩充了一倍 ..."
+    },
+    {
+      "type" : "subheading",
+      "content" : "整数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "加上负数以后, 我们对现在的数字有了 <b>新的名称</b> 那就是 <b>整数</b>"
+    },
+    {
+      "type" : "def",
+      "content" : "整数: {..., -3, -2, -1, 0, 1, 2, 3, ...}"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "整数包括,零, 正数, 和负数, 这样,我们就可以从零出发任意的向两边延伸了."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<img src=\"../public/images/number-line.svg\" width=\"100%\" alt=\"number line\">"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;",
+      "align" : "align"
+    },
+    {
+      "type" : "subheading",
+      "content" : "分数"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "content" : "<img src=\"../public/images/watermelon-halves.jpg\" alt=\"分西瓜\" width=\"139\" height=\"90\">"
+          },
+          {
+            "type" : "td",
+            "content" : " <p>我们有一个西瓜需要分给几个小伙伴吃,很自然的,我们会拿刀把它切开了.</p><p>这样,我们又碰到了新的数字</p>"
+          }
+        ]
+      ],
+      "border" : "0"
+    },
+    {
+      "type" : "paragraph",
+      "align" : "center",
+      "content" : "<b><i>我们拿了一个西瓜 (1) 把它分成两半 (2) 现在每一半是 (1/2)个西瓜</i></b>"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "只要碰到分东西,我们就需要分数,比如, 我们现在有四个苹果 (4) 要分给三个小伙伴 (3) ... 那每个小伙伴拿到了 (4/3) 个苹果."
+    },
+    {
+      "type" : "subheading",
+      "content" : "有理数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "有理数,是整数和分数的统称,一切有理数都可以化成分数的形式."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "例如,  \"a\" 和 \"b\" 是 整数, 根据我们上边描述的 a/b 是一个有理数."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "有理数,是整数和分数的统称,一切有理数都可以化成分数的形式."
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "paragraph",
+          "content" : "例如: 如果 <b>a</b> 是 3  <b>b</b> 是 2, 我们可以得到:"
+        },
+        {
+          "type" : "paragraph",
+          "align" : "center",
+          "content" : "<b>a/b</b> = 3/2 = <b>1.5</b> 是一个有理数"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "这里有一个例外就是当 <b>b</b> 是零, 因为 <a href=\"dividing-by-zero.html\">零做被除数</a> 是没有意义的."
+    },
+    {
+      "type" : "def",
+      "content" : "<a href=\"../rational-numbers.html\">有理数</a>: {a/b : a 和 b 是整数, b不能为零}<br> "
+    },
+    {
+      "type" : "paragraph",
+      "content" : "所以我们经常说的一半 (<b>½</b>) 是一个有理数."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<b>2</b> 也是一个有理数, 按照我们的定义,2可以写成 <b>2/1</b>"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "有理数包括:"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "所有的 <b>整数</b>",
+        "和所有的 <b>分数</b>. "
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "让我们找一个很复杂的数字 88.8888888888 .:"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "88.8888888888 = 888888888888 / 1,000,000,000",
+      "align" : "center"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "好了,现在我们有了零、负数、分数,好像什么也不缺了"
+    },
+    {
+      "type" : "subheading",
+      "content" : "不过,不过,这里是什么情况"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "content" : "<img src=\"../public/images/square-root-2.gif\" alt=\"square root 2\" width=\"102\" height=\"115\">"
+          },
+          {
+            "type" : "td",
+            "content" : " 如果我们画一个边长为一米的正方形, 它的对角线的长度是多少? 问题很简单是不是"
+          }
+        ]
+      ],
+      "border" : "0",
+      "width" : "80%",
+      "align" : "center"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "答案在这里 <b><a href=\"../square-root.html\"></a>2</b>的平方根, 大概是<b> 1.4142135623730950...(等等等等)</b>"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "这个数字很奇怪,和我们上边学过的任何一类数字都不同 ... "
+    },
+    {
+      "type" : "example",
+      "class" : "indent50px",
+      "content" : [
+        {
+          "type" : "paragraph",
+          "content" : "... 我们<b>不能</b> 用分数来表示它"
+        },
+        {
+          "type" : "paragraph",
+          "align" : "center",
+          "class" : "larger",
+          "content" : " 2的平方根 ≠ a/b"
+        },
+        {
+          "type" : "paragraph",
+          "content" : "... 它 <b>不是一个有理数</b> <i>(更多内容 <a href=\"irrational-finding.html\">这里</a>)</i>"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "好了,看来我们又发现了新的数字,让我们给它起个名字"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "不是有理数的话,我们叫它<b> 无理数 !</b>",
+      "align" : "center",
+      "class" : "larger"
+    },
+    {
+      "type" : "subheading",
+      "content" : "无理数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<b>根号</b> (√2) 是一个 <a href=\"../irrational-numbers.html\">无理数</a> . 它不能表示成两个整数之比,是一个看上去毫无规律的无限不循环小数."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "事实上,根号 2 只是最普通的无理数.在无理数大家庭中,还有很多比根号 2 更诡异的数. <a href=\"pi.html\">Pi</a> (<span class=\"times\">π</span>) 是最耀眼的一个."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "这么奇怪的数,会有什么用途呢"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "表示正方形的对角线长度",
+        "涉及到圆周的计算(使用 <span class=\"times\">π</span>), ",
+        "更多更多"
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "如果我们把有理数和无理数放在一起,会出现什么"
+    },
+    {
+      "type" : "subheading",
+      "content" : "实数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "对,这个名字不错就是它了"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "很明显,实数包括:"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "有理数, 和",
+        "无理数"
+      ]
+    },
+    {
+      "type" : "def",
+      "content" : "实数: {x : x 是有理数 或者 是无理数}"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "我们可以把实数想象为在一条直线上的 <b>任意点</b> :"
+    },
+    {
+      "type" : "script",
+      "content" : " numberlineMain('real');"
+    },
+    {
+      "type" : "paragraph",
+      "class" : "center",
+      "content" : "<i>我们这里只是显示了有限的几位数字<br>实际上实数有<b>很多很多很多位数字</b>!</i>"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "现在,直线上的<b>任意</b> 点 我们都可以用实数来表示了!"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "可是,可是问题又出现了"
+    },
+    {
+      "type" : "subheading",
+      "content" : "让我们想象一下 ..."
+    },
+    {
+      "type" : "paragraph",
+      "class" : "larger",
+      "align" : "center",
+      "content" : "\"<b>负一</b>的<b>平方根</b>是什么?\""
+    },
+    {
+      "type" : "paragraph",
+      "content" : "换句话说, <b>什么样的数字自己和自己相乘的结果是负一</b>?"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "直到现在为止,我们不可能得到这样的结果,比如:"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "1×1 = <b>1</b>, ",
+        "(-1)×(-1) = <b>1</b> (因为 a <a href=\"../multiplying-negatives.html\">负负得正</a>)"
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "那什么样的数字,自己和自己相乘的结果是 <b>-1</b>?"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "不可能的事情.对不对"
+    },
+    {
+      "type" : "paragraph",
+      "class" : "larger",
+      "align" : "center",
+      "content" : "\"好吧,我们好像发现了什么,让我们试试看\""
+    },
+    {
+      "type" : "subheading",
+      "content" : "虚数"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "content" : "<img src=\"../public/images/imaginary-square-root.svg\" alt=\"square root of minus one\">"
+          },
+          {
+            "type" : "td",
+            "content" : "   <p>让我们先 <b>假定</b>  <b>存在一个这样的数</b>,它和自身的乘积是负一. </p><p>我们把这个数用字母:  <span class=\"large\">i</span>来表示</p>"
+          }
+        ]
+      ],
+      "border" : "0",
+      "width" : "100%"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "现在我们可以<b>用它</b> 来回答这些问题了:"
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "paragraph",
+          "content" : "比如:  -9的平方根是什么 ?"
+        },
+        {
+          "type" : "paragraph",
+          "content" : "答案是: √(-9) = √(9 × -1) = √(9) × √(-1) = 3 × √(-1) = 3<span class=\"large\">i</span>"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "好了,有了 <span class=\"large\">i</span>以后, 这些问题对我们来说一下变<b>简单</b> 了."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<span class=\"large\">i</span> 还有一个很有意思的属性,如果我们对 (<span class=\"large\">i</span>×<span class=\"large\">i</span>)求平方 得到 <b>-1</b> ,这个结果是一个实数."
+    },
+    {
+      "type" : "def",
+      "content" : "<a href=\"imaginary-numbers.html\">虚数</a>: 它的平方是一个<b>负</b> 实数."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "任何实数和<span class=\"large\">i</span> 的乘积都是一个虚数. 我们来看看下边的例子:"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "3<span class=\"large\">i</span>",
+        "-6<span class=\"large\">i</span>",
+        "0.05<span class=\"large\">i</span>",
+        "<span class=\"times\">π</span><span class=\"large\">i</span>"
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "class" : "larger",
+      "align" : "center",
+      "content" : "如果我们把<b>一个实数</b> 和 <b>一个虚数</b> 放在一起,会是什么?"
+    },
+    {
+      "type" : "subheading",
+      "content" : "复数"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "是的,如果我们把实数和虚数放在一起,我们得到了一个新的数字  <a href=\"complex-numbers.html\">复数</a> 就像下边的例子:"
+    },
+    {
+      "type" : "list",
+      "content" : [
+        "3 + 2<span class=\"large\">i</span> ",
+        "27.2 - 11.05<span class=\"large\">i</span>"
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "一个复数包含一个实数部分和一个虚数部分, 每一部分都可以为零"
+    },
+    {
+      "type" : "example",
+      "class" : "center80",
+      "content" : [
+        {
+          "type" : "paragraph",
+          "content" : "一个实数是一个复数 (如果我们把虚部设为零的话):"
+        },
+        {
+          "type" : "list",
+          "content" : [
+            "4 也是一个复数 (因为它可以转换为 4 + 0<span class=\"large\">i</span>)"
+          ]
+        },
+        {
+          "type" : "paragraph",
+          "content" : "同样的,一个虚数也是一个复数 (如果我们把实部设为零):"
+        },
+        {
+          "type" : "list",
+          "content" : [
+            "7<span class=\"large\">i</span> 是一个复数 (因为它可以转换为 0 + 7<span class=\"large\">i</span>)"
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "看看,我们最后得到了什么,复数,它包括我们学过的所有数."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    },
+    {
+      "type" : "paragraph",
+      "class" : "larger",
+      "align" : "center",
+      "content" : "好了,我们终于可以休息一下了!"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "从最简单最基本的计数单位到很复杂的复数,让我们来回顾看看我们学过的内容"
+    },
+    {
+      "type" : "example",
+      "class" : "beach",
+      "content" : [
+        {
+          "type" : "table",
+          "content" : [
+            [
+              {
+                "type" : "th",
+                "content" : "类型"
+              },
+              {
+                "type" : "th",
+                "content" : "描述"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "计数"
+              },
+              {
+                "type" : "td",
+                "content" : "{1, 2, 3, ...}"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "整数"
+              },
+              {
+                "type" : "td",
+                "content" : "{0, 1, 2, 3, ...}"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "整型"
+              },
+              {
+                "type" : "td",
+                "content" : "{..., -3, -2, -1, 0, 1, 2, 3, ...}"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "有理数"
+              },
+              {
+                "type" : "td",
+                "content" : "a/b : a 和 b都是整数, b 不能为零"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "无理数"
+              },
+              {
+                "type" : "td",
+                "content" : ""
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "实数"
+              },
+              {
+                "type" : "td",
+                "content" : "有理数和无理数"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "复数"
+              },
+              {
+                "type" : "td",
+                "content" : "实数和虚数"
+              }
+            ]
+          ],
+          "border" : "0",
+          "width" : "90%",
+          "align" : "center"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    }
+  ]
+
+}

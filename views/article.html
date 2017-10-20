@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+    <!-- Global stylesheets -->
+    <link href="../public/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="../public/assets/css/colors.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <link href="../public/css/dd-shell-index.css" rel="stylesheet" type="text/css" />
+    <link href="../public/css/dd-content-article.css" rel="stylesheet" type="text/css" />
+    <!-- Core JS files -->
+    <script src="../public/js/dd-content-number-line.js" type="application/javascript"></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <!-- /theme JS files -->
+</head>
+
+<body class="dd-shell-bg-white">
+<!-- Main navbar -->
+<div class="navbar ">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="page-logo">
+                <a href="index.html">
+                    <img src="../public/images/index/logo.png" alt="logo" class="logo-default">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="navbar-collapse collapse dd-navbar-primary" id="navbar-mobile">
+            <ul class="nav navbar-nav pull-right dd-navbar-nav">
+                <!-- BEGIN NOTIFICATION DROPDOWN -->
+                <!-- DOC: Apply "dropdown-hoverable" class after "dropdown" and remove data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to enable hover dropdown mode -->
+                <!-- DOC: Remove "dropdown-hoverable" and add data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to the below A element with dropdown-toggle class -->
+                <li  >
+                    <a href="/features">Features</a>
+                </li>
+                <!-- END NOTIFICATION DROPDOWN -->
+                <!-- BEGIN TODO DROPDOWN -->
+                <li >
+                    <a href="/examples">Examples</a>
+                </li>
+
+                <li >
+                    <a href="/pricing">Pricing</a>
+                </li>
+                <!-- END INBOX DROPDOWN -->
+                <!-- BEGIN USER LOGIN DROPDOWN -->
+                <li >
+                    <a href="/login">Login</a>
+                </li>
+
+            </ul>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+<!-- /main navbar -->
+<!-- Second navbar -->
+<!-- /second navbar -->
+<!-- Page header -->
+<!-- /page header -->
+<!-- Page container -->
+<div class="page-container">
+    <!-- Page content -->
+    <div class="page-content">
+        <!-- Main content -->
+        <div class="content-wrapper">
+            <div class="container">
+
+
+
+                <div id="content" role="main">
+                    <!-- #BeginEditable "Body" -->
+                    <h1 align="center">数字的变化</h1>
+
+                    <h2>计数</h2>
+                    <p>我们可以用数字来 <b>计数</b>: 1, 2, 3, 4, 等等</p>
+                    <p>这样的计数方式从很久很久以前就开始了。 </p>
+                    <ul>
+                        <li>我今天吃了"<b>2</b> 顿饭"</li>
+                        <li>书包里有 "<b>5</b> 本书" </li>
+                        <li>我买了 "<b>2</b> 瓶可乐"</li>
+                    </ul>
+                    <p>所以我们有了这样的方式</p>
+                    <div class="def">
+                        <p>数字: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ...}</p>
+                    </div>
+                    <p>十个、一百个、一千个、一万个....,嗯，只要我们愿意，我们可以一直数下去。</p>
+                    <h2>零</h2>
+                    <p>现在我们每个人都很熟悉这个概念" <b><a href="zero.html">零</a></b>", 但对于很久很久以前的我们,情况却不是这样的,因为我们计数是和现实里的东西对应的 ... 如果这里什么也没有, 那我们也就没有必要计数了。</p>
+                    <p align="center"><b>例如: 小河里有小鸭子，一只；如果小河里什么也没有</b></p>
+                    <table border="0" align="center">
+                        <tbody><tr>
+                            <td><img src="../public/images/count_one_duck.png" alt="one duck" width="250" height="112"></td>
+                            <td width="30">&nbsp;</td>
+                            <td><img src="../public/images/count_zero.png" alt="zero" width="250" height="112"></td>
+                        </tr>
+                        <tr>
+                            <th>一只小鸭子</th>
+                            <th width="30">&nbsp;</th>
+                            <th>没有小鸭子? 没有怎么计数呢</th>
+                        </tr>
+                        </tbody></table>
+                    <h3>占位符</h3>
+                        <p>很久很久以前，我们经常碰到这样的情况， 如何区别这两个数 <b>4</b> 和 <b>40.</b> 没有零这个符号的话，他们看起来是一样的。</p>
+                    <p>聪明的我们很快就想到一个好注意"占位符", 用一个特殊的符号来表示这里什么也没有，是空空的</p>
+                    <table width="80%" border="0" align="center">
+                        <tbody><tr>
+                            <td class="huge">1&nbsp;1</td>
+                            <td>
+                                <p>"1&nbsp;1" 意味着 "101" </p>
+                                <p>(百位是1, 十位是零 , 个位是1) </p>
+                            </td>
+                        </tr>
+                        </tbody></table>
+                    <p>我们创造这个概念以后, 在很长很长的时间里，都没有把它当做一个像1、2、3这样真正的 <b>数字</b>. </p>
+                    <p>慢慢的，我们开始接受它了</p>
+                    <p align="center"><i>"我有两个苹果,中午把它们吃的干干净净的， 那现在我有 <b>零</b>  个苹果...!"</i></p>
+                    <h2>整数</h2>
+                    <p>现在，让我们把零和开始时候我们拿来计数的数字放在一块，我们有了 <b>一组新的数字.</b></p>
+                    <p>来，我们一起给这组新的数字起个名字吧, 大声说"整数":</p>
+                    <div class="def">
+                        <p><a href="../whole-numbers.html">整数</a>: {0, 1, 2, 3, ...}</p>
+                    </div>
+                    <p align="center"><img src="../public/images/number-line-positive.gif" alt="whole number line" width="426" height="69"></p>
+                    <h2>自然数</h2>
+                    <p>我们都听过这个概念 "<b>自然数</b>" ... 它有两种含义:</p>
+                    <ul>
+                        <li> "计数的数字": {1, 2, 3, ...}</li>
+                        <li><b>或者</b>  "整数": {0, 1, 2, 3, ...}</li>
+                    </ul>
+                    <p>认为自然数不包含零的其中一个理由是因为人们（尤其是小孩）在开始学习数字的时候是由“一、二、三...”开始，而不是由“零、一、二、三...”开始, 因为这样是非常不自然的。</p>
+                    <h2>负数</h2>
+                    <p>整个数学的历史是由一个接着一个的问题组成的;我们碰到一个问题,绞尽脑汁的去寻找答案,接着又出现新的问题......</p>
+                    <p>现在,我们碰到的问题是</p>
+                    <p align="center" class="larger"> "我们在数数的时候总是正着数, 那我们可不可以 <i>到</i> 着数呢?"</p>
+                    <p>比如,我们正着数数: 1, 2, 3, 4, ...</p>
+                    <table border="0" align="center">
+                        <tbody><tr>
+                            <td align="center">
+                                <p>... 如果我们到过来,从大到小:</p>
+                                <p> 3, 2, 1, 0, ... <b>然后,会出现什么?</b></p>
+                            </td>
+                            <td align="center">&nbsp;</td>
+                            <td><img src="../public/images/number-line-below-zero.gif" alt="number line below zero" width="215" height="88"></td>
+                        </tr>
+                        </tbody></table>
+                    <p>答案就是: 我们碰到了 <span class="large">负数:</span></p>
+                    <p align="center"><img src="../public/images/number-line.svg" width="100%" alt="number line"></p>
+                    <p align="center">现在,我们即可以从小到大数数，也可以到过来,从大到小 </p>
+                    <h3>可是一个负数对我们来说到底意味这什么?</h3>
+                    <p>比如,我们经常说的温度低于零度.</p>
+
+                        <table  width="75%" border="0" align="center">
+                            <tbody><tr>
+                                <td>
+                                    <a href="../measure/thermometer.html"><img src="../public/images/thermometer-thumb.gif" alt="thermometer" width="67" height="141"></a>
+                                </td>
+                                <td>
+                                    <p>先看看我们的例子 <a href="../temperature-conversion.html">温度</a>. </p>
+                                    <p>我们把水结冰时候的温度定义为 (<b>0° C</b>) ... 这样,当我们碰到低于这个温度的时候,我们称之为负几度. </p>
+                                    <p> <b>-20° C</b> is 20° 低于零度.</p>
+                                </td>
+                            </tr>
+                            </tbody></table>
+
+                    <p>&nbsp;</p>
+                    <p style="float:left; margin: 0 10px 5px 0;"><img src="../public/images/two-cats.png" alt="minus one cow" width="201" height="150"></p>
+                    <h3>负的小猫</h3>
+                    <p>在理论上,我们可以有负数的小猫 </p>
+                    <p>故事是这样开始的 ...我们有三个好朋友, <b>每个好朋友我们想送一只小猫咪做礼物</b>, 就像图画里的,我们只有 <b>两只小猫</b> 来送给我们的朋友... 这样的话 <b>我们少一只小猫咪</b> ... 我们把这个称为负了一只小猫咪! </p>
+                    <p>有了负数以后,我们的计数一下扩充了一倍 ...</p>
+                    <h2>整数</h2>
+                    <p>加上负数以后, 我们对现在的数字有了 <b>新的名称</b> 那就是 <b>整数</b></p>
+                    <div class="def">
+                        <p>整数: {..., -3, -2, -1, 0, 1, 2, 3, ...}</p>
+                    </div>
+                    <p>整数包括,零, 正数, 和负数, 这样,我们就可以从零出发任意的向两边延伸了.</p>
+                    <p align="center"><img src="../public/images/number-line.svg" width="100%" alt="number line"></p>
+                    <p>&nbsp;</p>
+                    <h2>分数</h2>
+                    <table border="0">
+                        <tbody><tr>
+                            <td><img src="../public/images/watermelon-halves.jpg" alt="分西瓜" width="139" height="90"></td>
+                            <td>
+                                <p>我们有一个西瓜需要分给几个小伙伴吃,很自然的,我们会拿刀把它切开了.</p>
+                                <p>这样,我们又碰到了新的数字</p>
+                            </td>
+                        </tr>
+                        </tbody></table>
+                    <p align="center"><b><i>我们拿了一个西瓜 (1) 把它分成两半 (2) 现在每一半是 (1/2)个西瓜</i></b></p>
+                    <p>只要碰到分东西,我们就需要分数,比如, 我们现在有四个苹果 (4) 要分给三个小伙伴 (3) ... 那每个小伙伴拿到了 (4/3) 个苹果.</p>
+
+                    <h2>有理数</h2>
+                    <p>有理数,是整数和分数的统称,一切有理数都可以化成分数的形式.</p>
+                    <p>例如,  "a" 和 "b" 是 整数, 根据我们上边描述的 a/b 是一个有理数.</p>
+                    <div class="example">
+                        <p>例如: 如果 <b>a</b> 是 3  <b>b</b> 是 2, 我们可以得到:</p>
+                        <p align="center"> <b>a/b</b> = 3/2 = <b>1.5</b> 是一个有理数</p>
+                    </div>
+                    <p>这里有一个例外就是当 <b>b</b> 是零, 因为 <a href="dividing-by-zero.html">零做被除数</a> 是没有意义的.</p>
+                    <div class="def">
+                        <p><a href="../rational-numbers.html">有理数</a>: {a/b : a 和 b 是整数, b不能为零}
+                            <br> </p>
+                    </div>
+                    <p>所以我们经常说的一半 (<b>½</b>) 是一个有理数.</p>
+                    <p> <b>2</b> 也是一个有理数, 按照我们的定义,2可以写成 <b>2/1</b></p>
+                    <p>有理数包括:</p>
+                    <ul>
+                        <li>所有的 <b>整数</b></li>
+                        <li>和所有的 <b>分数</b>. </li>
+                    </ul>
+                    <p>让我们找一个很复杂的数字 88.8888888888 .</p>
+                    <p align="center">88.8888888888 = 888888888888 / 1,000,000,000</p>
+                    <p>好了,现在我们有了零、负数、分数,好像什么也不缺了 </p>
+                    <h2>不过,不过,这里是什么情况</h2>
+                    <table width="80%" border="0" align="center">
+                        <tbody><tr>
+                            <td><img src="../public/images/square-root-2.gif" alt="square root 2" width="102" height="115"></td>
+                            <td>如果我们画一个边长为一米的正方形, 它的对角线的长度是多少? 问题很简单是不是</td>
+                        </tr>
+                        </tbody></table>
+                    <p>答案在这里 <b><a href="../square-root.html"></a>2</b>的平方根, 大概是<b> 1.4142135623730950...(等等等等)</b></p>
+                    <p>这个数字很奇怪,和我们上边学过的任何一类数字都不同 ... </p>
+                    <div class="indent50px">
+                        <p>... 我们<b>不能</b> 用分数来表示它</p>
+                        <p align="center" class="larger"> 2的平方根 ≠ a/b</p>
+                        <p>... 它 <b>不是一个有理数</b> <i>(更多内容 <a href="irrational-finding.html">这里</a>)</i></p>
+                    </div>
+                    <p>好了,看来我们又发现了新的数字,让我们给它起个名字</p>
+                    <p align="center" class="larger">不是有理数的话,我们叫它<b> 无理数 !</b></p>
+                    <h2>无理数</h2>
+                    <p><b>根号</b> (√2) 是一个 <a href="../irrational-numbers.html">无理数</a> . 它不能表示成两个整数之比,是一个看上去毫无规律的无限不循环小数.</p>
+                    <p>事实上,根号 2 只是最普通的无理数.在无理数大家庭中,还有很多比根号 2 更诡异的数. <a href="pi.html">Pi</a> (<span class="times">π</span>) 是最耀眼的一个.</p>
+
+                    <p>这么奇怪的数,会有什么用途呢</p>
+                    <ul>
+                        <li>表示正方形的对角线长度</li>
+                        <li>涉及到圆周的计算(使用 <span class="times">π</span>), </li>
+                        <li>更多更过</li>
+                    </ul>
+                    <p>如果我们把有理数和无理数放在一起,会出现什么</p>
+                    <h2>实数</h2>
+                    <p>对,这个名字不错就是它了</p>
+                    <p>很明显,实数包括:</p>
+                    <ul>
+                        <li>有理数, 和</li>
+                        <li>无理数</li>
+                    </ul>
+                    <div class="def">
+                        <p>实数: {x : x 是有理数 或者 是无理数}</p>
+                    </div>
+                    <p>我们可以把实数想象为在一条直线上的 <b>任意点</b> :</p>
+                    <script type="text/javascript">
+                        numberlineMain('real');
+                    </script>
+                    <p class="center"><i>我们这里只是显示了有限的几位数字<br>
+                        实际上实数有<b>很多很多很多位数字</b>!</i></p>
+                    <p>现在,直线上的<b>任意</b> 点 我们都可以用实数来表示了!</p>
+                    <p>可是,可是问题又出现了</p>
+                    <h2>让我们想象一下 ...</h2>
+                    <p align="center" class="larger">"<b>负一</b>的<b>平方根</b>是什么?"</p>
+                    <p>换句话说, <b>什么样的数字自己和自己相乘的结果是负一</b>?</p>
+                    <p>直到现在为止,我们不可能得到这样的结果,比如:</p>
+                    <ul>
+                        <li>1×1 = <b>1</b>, </li>
+                        <li>(-1)×(-1) = <b>1</b> (因为 a <a href="../multiplying-negatives.html">负负得正</a>)</li>
+                    </ul>
+                    <p>那什么样的数字,自己和自己相乘的结果是 <b>-1</b>?</p>
+                    <p>不可能的事情.对不对</p>
+                    <p align="center" class="larger">"好吧,我们好像发现了什么,让我们试试看"</p>
+                    <h2>虚数</h2>
+                    <table width="100%" border="0">
+                        <tbody><tr>
+                            <td><img src="../public/images/imaginary-square-root.svg" alt="square root of minus one"></td>
+                            <td>
+                                <p>让我们先 <b>假定</b>  <b>存在一个这样的数</b>,它和自身的乘积是负一. </p>
+                                <p>我们把这个数用字母:  <span class="large">i</span>来表示</p>
+                            </td>
+                        </tr>
+                        </tbody></table>
+                    <p> 现在我们可以<b>用它</b> 来回答这些问题了:</p>
+                    <div class="example">
+                        <p>比如:  -9的平方根是什么 ?</p>
+                        <p>答案是: √(-9) = √(9 × -1) = √(9) × √(-1) = 3 × √(-1) = 3<span class="large">i</span> </p>
+                    </div>
+                    <p>好了,有了 <span class="large">i</span>以后, 这些问题对我们来说一下变<b>简单</b> 了.</p>
+                    <p> <span class="large">i</span> 还有一个很有意思的属性,如果我们对 (<span class="large">i</span>×<span class="large">i</span>)求平方 得到 <b>-1</b> ,这个结果是一个实数.</p>
+                    <div class="def">
+                        <p><a href="imaginary-numbers.html">虚数</a>: 它的平方是一个<b>负</b> 实数.</p>
+                    </div>
+                    <p>任何实数和<span class="large">i</span> 的乘积都是一个虚数. 我们来看看下边的例子:</p>
+                    <ul>
+                        <li>3<span class="large">i</span></li>
+                        <li>-6<span class="large">i</span></li>
+                        <li>0.05<span class="large">i</span></li>
+                        <li><span class="times">π</span><span class="large">i</span></li>
+                    </ul>
+                    <p align="center" class="larger">"如果我们把<b>一个实数</b> 和 <b>一个虚数</b> 放在一起,会是什么?"</p>
+                    <h2>复数</h2>
+                    <p> 是的,如果我们把实数和虚数放在一起,我们得到了一个新的数字  <a href="complex-numbers.html">复数</a> 就像下边的例子:</p>
+                    <ul>
+                        <li>3 + 2<span class="large">i</span> </li>
+                        <li>27.2 - 11.05<span class="large">i</span></li>
+                    </ul>
+                    <p>一个复数包含一个实数部分和一个虚数部分, 每一部分都可以为零</p>
+                    <div class="center80">
+                        <p>一个实数是一个复数 (如果我们把虚部设为零的话):</p>
+                        <ul>
+                            <li>4 也是一个复数 (因为它可以转换为 4 + 0<span class="large">i</span>)</li>
+                        </ul>
+                        <p>同样的,一个虚数也是一个复数 (如果我们把实部设为零):</p>
+                        <ul>
+                            <li>7<span class="large">i</span> 是一个复数 (因为它可以转换为 0 + 7<span class="large">i</span>)</li>
+                        </ul>
+                    </div>
+                    <p>看看,我们最后得到了什么,复数,它包括我们学过的所有数.</p>
+                    <p>&nbsp;</p>
+                    <p align="center" class="large">好了,我们终于可以休息一下了! </p>
+                    <p align="center">从最简单最基本的计数单位到很复杂的复数,让我们来回顾看看我们学过的内容</p>
+
+                    <div class="beach">
+                        <table width="90%" border="0" align="center">
+                            <tbody><tr>
+                                <th>类型</th>
+                                <th>描述</th>
+                            </tr>
+                            <tr>
+                                <td>计数</td>
+                                <td>{1, 2, 3, ...}</td>
+                            </tr>
+                            <tr>
+                                <td>整数</td>
+                                <td>{0, 1, 2, 3, ...}</td>
+                            </tr>
+                            <tr>
+                                <td>整型</td>
+                                <td>{..., -3, -2, -1, 0, 1, 2, 3, ...}</td>
+                            </tr>
+                            <tr>
+                                <td>有理数</td>
+                                <td>a/b : a 和 b都是整数, b 不能为零</td>
+                            </tr>
+                            <tr>
+                                <td>无理数</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>实数</td>
+                                <td>有理数和无理数</td>
+                            </tr>
+                            <tr>
+                                <td>虚数</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>复数</td>
+                                <td>实数和虚数</td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+                    <h2>来,挑战一下吧</h2>
+                    <div class="questions">
+                        <script type="text/javascript">
+                            getQ(426, 427, 429, 2978, 2979, 2980, 2981, 3973, 3974, 3975);
+                        </script><a href="javascript:doQ(426,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;1</a> <a href="javascript:doQ(427,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;2</a> <a href="javascript:doQ(429,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;3</a> <a href="javascript:doQ(2978,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;4</a> <a href="javascript:doQ(2979,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;5</a> <a href="javascript:doQ(2980,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;6</a> <a href="javascript:doQ(2981,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;7</a> <a href="javascript:doQ(3973,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;8</a> <a href="javascript:doQ(3974,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;9</a> <a href="javascript:doQ(3975,'426_427_429_2978_2979_2980_2981_3973_3974_3975')">Question&nbsp;10</a> &nbsp; </div>
+
+                </div>
+                <!-- Submit a ticket -->
+                <div class="panel panel-body stack-media-on-mobile">
+                    <div class="media-left">
+                        <a href="#" class="btn btn-link btn-icon text-teal">
+                            <i class="icon-question7 icon-2x no-edge-top"></i>
+                        </a>
+                    </div>
+
+                    <div class="media-body media-middle">
+                        <h6 class="media-heading text-semibold">没有发现对您有帮助的内容?</h6>
+                        有什么您希望了解的请告诉我，我会第一时间为您回复
+                    </div>
+
+                    <div class="media-right media-middle">
+                        <a href="#" class="btn bg-warning-400 btn-lg"><i class="icon-mail5 position-left"></i> 给我发邮件吧</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Search field -->
+            <!-- /submit a ticket -->
+        </div>
+        <!-- /main content -->
+    </div>
+    <!-- /page content -->
+</div>
+<!-- /page container -->
+<!-- Footer -->
+<div class="footer text-muted">
+    &copy; 2015. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+</div>
+<!-- /footer -->
+</body>
+</html>

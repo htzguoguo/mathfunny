@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<svg contentScriptType="text/ecmascript" width="541.5" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full"
+    zoomAndPan="magnify" contentStyleType="text/css" height="78.8" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+    version="1.1">
+    <defs/>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#3465a4;" x="125.73334" y="20.9">3</text>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#3465a4;" x="125.73334" y="49.3">2</text>
+    <path style="fill:none; stroke:#3465a4; stroke-width:1.27;" d="M 118.13333 28.2 H 144.13333"/>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#3465a4;" x="67.73333" y="33.8">1.5 =</text>
+    <text style="font-family:'Times New Roman'; font-size:47.9px; color:black; fill:#8f5902;" x="283.86664" y="38.3">π</text>
+    <text style="font-family:'Comic Sans MS'; font-size:20.6px; color:black; fill:#8f5902;" x="314.76666" y="34.1">= 3.14159... =</text>
+    <text style="font-family:'Comic Sans MS'; font-size:26px; font-style:italic; color:black; fill:#3465a4;" x="25.4" y="71.9">有理数</text>
+    <text style="font-family:'Comic Sans MS'; font-size:26px; font-style:italic; color:black; fill:#8f5902;" x="236.90001"
+        y="71.899994">无理数</text>
+    <text style="font-family:'Comic Sans MS'; font-size:24.7px; color:black; fill:#729fcf;" x="108.36666" y="71.33333">有限小数</text>
+    <text style="font-family:'Comic Sans MS'; font-weight:bold; font-size:23.8px; color:black; fill:#8f5902;" x="458.16666"
+        y="19.9">?</text>
+    <text style="font-family:'Comic Sans MS'; font-weight:bold; font-size:23.8px; color:black; fill:#8f5902;" x="458.26666"
+        y="48.3">?</text>
+    <path style="fill:none; stroke:#8f5902; stroke-width:1.27;" d="m 450.56665 27.1 h 26.0"/>
+    <text style="font-family:'Comic Sans MS'; font-size:24.7px; color:black; fill:#8f5902;" x="336.76666" y="69.13333">(无限不循环小数)</text>
+</svg>

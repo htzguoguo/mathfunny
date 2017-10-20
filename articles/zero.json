@@ -1,0 +1,326 @@
+{
+  "title" : "零",
+  "keywords" : "数学,学习,零",
+  "description" : "数字零的概念",
+  "author" : "",
+  "createtime" : "",
+  "content" : [
+    {
+      "type" : "title",
+      "content" : "零"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    },
+    {
+      "type" : "paragraph",
+      "style" : "float:left; margin: 0 30px 5px 0;",
+      "content" : "<img src=\"../public/images/zero.png\" width=\"68\" height=\"89\"  alt=\"零\" />"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "零表示这里没有数量"
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "paragraph",
+          "content" : "例如: <b>1 &minus; 1 = 0</b>"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "零也可以用来作占位符，尤其是在我们书写数字的时候. "
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "paragraph",
+          "content" : "例如: <b>101</b> (读作一百零一), <b>11</b> 读作十一是错误的,因为零应该出现在十分位."
+        }
+      ]
+    },
+    {
+      "type" : "subheading",
+      "content" : "零是一个非常有意思的数字"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "它正好位于 <a href=\"../number-line.html\">直线</a>上 &minus;1 和 +1之间 "
+    },
+    {
+      "type" : "script",
+      "content" : " numberlineMain('int');"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "零既不属于正数,也不属于负数. 不过 零是一个 <a href=\"even-odd.html\">偶数</a>."
+    },
+    {
+      "type" : "subheading",
+      "content" : "意义"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "现在我们每个人都很熟悉这个概念\"零\", 但对于很久很久以前的我们,情况却不是这样的,因为我们计数是和现实里的东西对应的 ... 如果这里什么也没有, 那我们也就没有必要计数了."
+    },
+    {
+      "type" : "paragraph",
+      "content" : "<b>例如: 小河里有小鸭子，一只；如果小河里什么也没有</b>",
+      "align" : "center"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "th",
+            "content" : " <img src=\"../public/images/count_one_duck.png\" alt=\"2 dogs\" width=\"250\" height=\"112\" />"
+          },
+          {
+            "type" : "th",
+            "width" : "30",
+            "content" : "&nbsp;"
+          },
+          {
+            "type" : "th",
+            "content" : "<img src=\"../public/images/count_zero.png\" alt=\"no dogs\" width=\"250\" height=\"112\" />"
+          }
+        ],
+        [
+          {
+            "type" : "th",
+            "content" : "一只小鸭子"
+          },
+          {
+            "type" : "th",
+            "width" : "30",
+            "content" : "&nbsp;"
+          },
+          {
+            "type" : "th",
+            "content" : "没有小鸭子? 没有怎么计数呢"
+          }
+        ]
+      ],
+      "align" : "center",
+      "border" : "0"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "一只空荡荡的小河就是一只空荡荡的小河"
+    },
+    {
+      "type" : "subheading",
+      "content" : "零是占位符"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "很久很久以前，我们经常碰到这样的情况， 如何区别这两个数 4 和 40. 没有零这个符号的话，他们看起来是一样的。"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "聪明的我们很快就想到一个好注意\"占位符\", 用一个特殊的符号来表示这里什么也没有，是空空的"
+    },
+    {
+      "type" : "table",
+      "content" : [
+        [
+          {
+            "type" : "td",
+            "class" : "huge",
+            "content" : "101"
+          },
+          {
+            "type" : "td",
+            "width" : "20",
+            "content" : "&nbsp;"
+          },
+          {
+            "type" : "td",
+            "content" : "<p>意思是一百零一</p>"
+          }
+        ]
+      ],
+      "align" : "center",
+      "border" : "0"
+    },
+    {
+      "type" : "subheading",
+      "content" : "零的用途"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "认识到零的作用以后,我们很快把零作为一个真正的<b>数字</b>了. "
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "threeheading",
+          "content" : "例如:"
+        },
+        {
+          "type" : "paragraph",
+          "align" : "center",
+          "content" : "<i>&quot;我有两块钱, 我把它们花掉了, 那现在我只有<b>零</b> 块钱了...!&quot;</i>"
+        }
+      ]
+    },
+    {
+      "type" : "subheading",
+      "content" : "加法恒等性"
+    },
+    {
+      "type" : "paragraph",
+      "content" : "零有一个特殊的属性,就是任何数字和它相加以后等于数字本身"
+    },
+    {
+      "type" : "example",
+      "class" : "example",
+      "content" : [
+        {
+          "type" : "threeheading",
+          "content" : "例如:"
+        },
+        {
+          "type" : "paragraph",
+          "class" : "center larger",
+          "content" : "1 + 0 = 1"
+        },
+        {
+          "type" : "paragraph",
+          "class" : "center larger",
+          "content" : "0 + 1 = 1"
+        }
+      ]
+    },
+    {
+      "type" : "subheading",
+      "content" : "其它属性 "
+    },
+    {
+      "type" : "paragraph",
+      "content" : "下面是关于零的一些属性:"
+    },
+    {
+      "type" : "example",
+      "class" : "simple",
+      "content" : [
+        {
+          "type" : "table",
+          "content" : [
+            [
+              {
+                "type" : "th",
+                "content" : "性质"
+              },
+              {
+                "type" : "th",
+                "content" : "示例"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "a + 0 = a"
+              },
+              {
+                "type" : "td",
+                "content" : "1 + 0 = 1"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "a &minus; 0 = a"
+              },
+              {
+                "type" : "td",
+                "content" : "1 &minus; 0 = 1"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "a &times; 0 = 0"
+              },
+              {
+                "type" : "td",
+                "content" : "1 &times; 0 = 0"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "0 / a = 0"
+              },
+              {
+                "type" : "td",
+                "content" : "0 / 1 = 0"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "a / 0 = 未定义 (<a href=\"dividing-by-zero.html\">零不能做为被除数</a>)"
+              },
+              {
+                "type" : "td",
+                "content" : "1/0 = 未定义"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "0<sup>a</sup> = 0 (a 是正数)"
+              },
+              {
+                "type" : "td",
+                "content" : "0<sup>1</sup> = 0"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "0<sup>a</sup> = 未定义 (a 是负数)"
+              },
+              {
+                "type" : "td",
+                "content" : "0<sup>-1</sup> = 未定义"
+              }
+            ],
+            [
+              {
+                "type" : "td",
+                "content" : "0! = 1 (&quot;!&quot; is the <a href=\"factorial.html\">阶乘</a>)"
+              },
+              {
+                "type" : "td",
+                "content" : "0! = 1"
+              }
+            ]
+          ],
+          "border" : "0",
+          "width" : "80%",
+          "align" : "center"
+        }
+      ]
+    },
+    {
+      "type" : "paragraph",
+      "content" : "&nbsp;"
+    }
+  ]
+}
